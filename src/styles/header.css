@@ -1,0 +1,36 @@
+/* src/styles/header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0056b3; /* Change to your desired background color */
+    padding: 10px 20px;
+}
+
+.logo {
+    p{
+        color: aliceblue;
+        align-items: center;
+        margin-top: 10;
+        font-size: 24px;
+
+
+    }
+    /* Remove underline from the link */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between nav items */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white; /* Change nav links to white */
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #b3c7e6; /* Change hover color if desired */
+}

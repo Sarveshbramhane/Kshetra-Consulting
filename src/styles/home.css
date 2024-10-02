@@ -1,0 +1,95 @@
+/* General Section Styles */
+.home section {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  h1{
+    font-size: 36px;
+    color: #0056b3;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #1f0eb5;
+    margin-bottom: 40px;
+    
+
+  }
+  
+  .cta-button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .cta-button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .cta-button:hover {
+    background-color: #003d80;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('../assets/images/hero-background.jpg');
+    background-size: cover;
+    color: white;
+    padding: 120px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color:#0056b3
+  }
+  
+  /* Director's Message */
+  .directors-message p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Alumni Section */
+  .alumni {
+    background-color: #f5f5f5;
+    padding: 80px 20px;
+  }
+  
+  /* Our Story Section */
+  .our-story {
+    background-color: #eef2f5;
+  }
+  
+  /* Technologies Section */
+  .technologies {
+    background-color: #f9f9f9;
+  }
+  
+  .tech-list {
+    list-style-type: none;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .tech-list li {
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Section */
+  .contact-info p {
+    color: #333;
+  }
+  
